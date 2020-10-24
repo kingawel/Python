@@ -1,16 +1,16 @@
-source = open('my_text.txt','r') 
+source = open('my_text2.txt','r') 
 #original text
 #ziemia sie kreci oraz nigdy nie przestanie.
 #dlaczego tak jest oraz jak dlugo.
-delete_list = [' sie ', ' nigdy ', ' i ', " oraz ", " nigdy ", " dlaczego "]
+replace_dictionary = {"oraz":"i", "nigdy":"prawie nigdy", "dlaczego":"czemu", "i":"oraz"}
 new_list = []
 for line in source:
-    for word in delete_list:
+    for word in replace_dictionary:
         if word in line:
-            line = line.replace(word," ")
+            line = line.replace(word,replace_dictionary[word])
     new_list.append(line) #list used to keep text from file with removed words
 source.close()
-source = open('my_text.txt','w')
+source = open('my_text2.txt','w')
 for line in new_list:
     source.write(line)
 source.close()
