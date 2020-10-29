@@ -1,0 +1,20 @@
+<panstwa_europejskie>
+   <panstwo>
+	<nazwa>Polska</nazwa>
+	<stolica>Warszawa</stolica>
+	<powierzchnia>312 tys. km 2</powierzchnia>
+	<ludnosc>38 mln</ludnosc>
+	</panstwo>
+	<panstwo>
+	<nazwa>Czechy</nazwa>
+	<stolica>Praga</stolica>
+	<powierzchnia>79 tys. km 2</powierzchnia>
+	<ludnosc>10,2 mln</ludnosc>
+	</panstwo>
+	<panstwo>
+	<nazwa>Niemcy</nazwa>
+	<stolica>Berlin</stolica>
+	<powierzchnia>349 tys. km 2</powierzchnia>
+	<ludnosc>82 mln</ludnosc>
+   </panstwo>
+</panstwa_europejskie>
