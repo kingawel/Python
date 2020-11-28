@@ -4,11 +4,13 @@ class Complex:
 	def __init__(self, re, im):
 		self.re = re
 		self.im = im
+
 	def write(self):
 		if self.im < 0:
 			print("{} {}i".format(self.re,self.im))
 		else:
 			print("{} + {}i".format(self.re,self.im))
+			
 	def sum(c1,c2):
 		return Complex(c1.re + c2.re, c1.im + c2.im)
 
